@@ -170,11 +170,11 @@ After the VESC is mounted. We mount the antenna standoffs and cables to the rear
 
 Use the M3 X 10 screw to mount the antenna standoffs+cable onto the platform deck.
 
-![Attach antenna mount to platform deck](<Building_F1Tenth_Pics/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 16-55-49.png>)
+![Attach antenna mount to platform deck](<Building_F1Tenth_Pics/Screenshot from 2025-04-18 16-55-49.png>)
 
 Afterwards you can directly attach the black antennas to the antenna mount.
 
-![Attach the antennas to the antenna mount.](<Building_F1Tenth_Pics/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 17-00-11.png>)
+![Attach the antennas to the antenna mount.](<Building_F1Tenth_Pics/Screenshot from 2025-04-18 17-00-11.png>)
 
 ## 3.3 Mounting the NVIDIA Jetson Orin Nano
 
@@ -271,7 +271,7 @@ The VESC also has three wires labelled `A`, `B`, and `C`.
 
 Brushless Motor wires connected to the Bullet Adapters then connceted to the VESC wires. Then tuck the wires underneather the platform deck.
 
-![Bullet connectors tucked under PLatform Deck](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-39.png>)
+![Bullet connectors tucked under Platform Deck](<Building_F1Tenth_Pics/IMG_4744.jpg>)
 
 ### Important
 
