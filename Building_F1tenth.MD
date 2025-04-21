@@ -1,60 +1,64 @@
 # Building F1tenth
 
-# 1. Lower Level Chassis
+**Note:** Before starting the process of disassembling the Traxxas you may want to take this time to drive the car to see it full capability as it is very remarkable. This will aslo give you a baseline understanding of full capabilities of this car.
 
-We begin with setting up the Lower Level chassis. We will be removing the internal parts of the Traxxas and repopulate it with our own parts. The complete process for the first hardware part can be watched in this video tutorial too.
+## 1. Lower Level Chassis
+
+We begin with setting up the Lower Level Chassis. We will be removing some of the internal parts of the Traxxas and repopulating them with our own. Below is a video of this process being done to an older model. It is still helpful to watch as there is a large amount of over lap.
 
 [Lower Level Chassis](https://youtu.be/IoWHUGFfrRE)
 
-## 1. Removing Traxxas Stock Components
-Take the Traxxas from its box. Remove the four Body Clips to remove the Body so you are left with this:
+## 1.1 Removing Traxxas Stock Components
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4620.jpg>)
+Take the Traxxas from its box. Remove the four body clips to remove the body so you are left with this:
 
-Traxxas chassis with body shell removed.¶
+![Traxxas chassis with body shell removed](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-45-52.png>)
 
-We are going to remove several electrical assemblies including the speed controller and reciver. The only component which we will not be removing is the Servo and the Drive Motor, which is the little black box in the right corner and the large blue motor. There are three hex keys that come with the Traxxas. You will use this to remove and/or install almost all of the screws on the chassis. You may want to have a bowl or container of sorts nearby to hold all the screws that you’ll be removing as these screws will be needed later.
+We are going to remove several electrical componets including the speed controller and reciver. The only component which we will not be removing is the servo and the drive otor, which is the little black box in the right corner and the large blue motor. There are three hex keys that come with the Traxxas. You will use these to remove and/or install almost all of the screws on the chassis. You may want to have a bowl or container of sorts nearby to hold all the screws that you’ll be removing as these screws will be needed later.
 
-Start by removing the plastic side bars. THese holes will be used as mounting points later.
+Start by unscrewing the top of the black receiver box.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3285.jpg>)
+![alt text](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-46-04.png>)
 
-Next, unscrewing the top of the black Receiver Box.
+Once the top is open, you will see the receiver labelled “TQi”. **Disconnect** all of the wires going to the receiver. Move the wires out of the way.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3286.jpg>)
+![Remove these wires](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-55-50.png>)
 
-Once the top is open, you will see the Receiver labelled “TQi”. Disconnect all of the wires going to the receiver. Move the wires out of the way. The Receiver is attached to bottom of the Receiver Box with double sided tape. Carefully, but firmly, pry the Receiver from the Receiver Box and remove.
+The receiver is attached to bottom of the receiver box with double sided tape. Carefully, but firmly, pry the receiver from the receiver box and remove it.This will expose the two screws which mount the receiver box to the chassis. Unscrew the screws to remove the receiver box.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3288.jpg>)
-Inside of Receiver Box.¶
+![Screws that hold the reciever box in place](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-46-33.png>)
 
-This will expose the two screws which mount the Receiver box to the chassis. Unscrew the screws to remove the Receiver Box.
+After this you can remove the antenna as it will no long be used. There is a set screw that holds the antenna in place. Once the set screw is removed the antenna tube will easily slide out.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3287.jpg>)
-
-Screws are visible once the Receiver Box has been removed.¶
-
-You may find a screw driver and pair of pliers useful in removing the Antenna Tube.
+![Location of antenna set screw](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-46-42.png>)
 
 Then, remove the Traxxas ESC, the blue box labelled “VXL-3s”, by unscrewing the two screws that attach the ESC to the chassis. Disconnect the wires (white, yellow, and blue) that go from the ESC to the Brushless Motor. The wires are connected by what are called bullet connectors. You can safely pull the wires apart by grabbing each side of the connector and pulling.
 
+![Location of ESC screws](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 13-46-50.png>)
+
+Lastly, remove the 2 plastic side bars on each side of the car. THese side bars are held on by 4 screws apiece. These holes will be used as mounting points later.
+
+![Location of side bar screws](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 14-02-09.png>)
+
 Your final result should look as follows.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3295.jpg>)
+![Final result](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-12-23.png>)
 
-## 2. Attaching the Standoffs
-First, remove the two Nerf Bars (black handles) located on either side of the chassis. There are 4 screws that hold each Nerf Bar in place. The screws are accessible from underneath the chassis.
+## 1.2 Attaching the Standoffs
 
-Attach three M3 screws and three 45mm M3 FF standoffs into the chassis as shown.
-
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3295.jpg>)
-Location of Standoffs.¶
+Once the sidebars are removed, located on either side of the chassis. Attach three 45mm M3 standoffs onto the chassis using M3 X 10 screws as shown.
 
 Use M3 screws from underneath the chassis to secure the standoffs. Arrange the standoffs so that two standoffs go on the Motor side and 1 go on the battery side. This arrangement allows for better access to the battery. You may want to use thread-locking fluid to secure these standoffs as the vibrations of the car during movement may loosen them over time.
 
-## 3. Setting Up the Battery
-**Danger**
-```
+![Location of 45mm M3 Standoffs](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-20-18.png>)
+
+The standoffs in the picture will be explained in more depth in the next section.
+
+## 1.3 Setting Up the Battery
+
+### Danger
+
+``` text
 LIPO (LITHIUM POLYMER) BATTERY SAFETY WARNING
 
 LiPO batteries allow your car to run for a long time, but they are not something to play with or joke about. They store a large amount of energy in a small space and can damage your car and cause a fire if used improperly. With this in mind, here are some safety tips for using them with the car.
@@ -74,342 +78,327 @@ See this video for an example of what might happen if you don’t take care of y
 
 Place the battery into the compartment opposite of the motor.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3295.jpg>)
+![Battery location on Lower Level Chassis](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-22-49.png>)
 
+## 2. Autonomy Elements
 
-**Lipo battery on Lower Level Chassis.**
-
-
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_3295.jpg>)
-Lower Level Chassis with installed Brushless Motor. The Standoffs in the picture will be explained in the next section.
-
-# 2. Autonomy Elements
-In the second part of the hardware setup we start preparing the autonomy elements for our F1TENTH car. The complete process for the second hardware part can be watched in this video tutorial too.
+In the second part of the hardware setup we start preparing the autonomy elements for our F1TENTH car. Below is a video of this process being done to an older model. It is still helpful to watch as there is a large amount of over lap.
 
 [F1tenth Autonomy Elements](https://youtu.be/L-V-0zzkl10)
 
-## 1. Preparing the NVIDIA Jetson Orin Nano
-When you purchase a NVIDIA Jetson Orin Nano, it is attached to small plastic development board. In order to use it on the car, you will need to unscrew the Jetson Orin Nano and its Wi-Fi antenna from the development board. First of all unbox your NVIDIA Jetson Orin Nano.
+## 2.1 Preparing the NVIDIA Jetson Orin Nano
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4639.jpg>)
-Unpackage the NVIDIA Jetson Orin Nano
+When you purchase a NVIDIA Jetson Orin Nano, it is attached to small plastic development board. In order to use it on the car, you will need to unscrew the Jetson Orin Nano and disconnect the Wi-Fi antenna wires from the development board. First of all unbox your NVIDIA Jetson Orin Nano.
 
-When you look on the Jetson Orin Nano from above you will see four screws (see red circles in the image). Please unscrew all of these 4 screws.
+### 2.1.1 Unpackage the NVIDIA Jetson Orin Nano From this Box
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 15-45-31.png>)
-Remove the screws that attach the plastic board to the NVIDIA Orin Nano
+![Jetson Orin Nano Box](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-43-32.png>)
 
-Afterwards you can turn the Jetson Orin Nano on the other side. You will see the plastic development board is still attached because of the two antenna cables.
+### 2.1.2 Remove the screws that attach the plastic frame to the NVIDIA Orin Nano
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4645.jpg>)
-Plastic development board attached to the NVIDIA Orin Nano
+![Remove screws from the Jetson Orion Nano frame](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-43-43.png>)
 
-Also remove the srew and inserct SSD card then put back in the screw to secure it.
+### 2.1.3 Remove Antenna Wires
 
-The two antenna cables are clipped to the Jetson NX. You have to unclip both of them. You can either use your fingers are lift them with a flat screwdriver.
+Afterwards you can turn the Jetson Orin Nano on the back side. You will see the plastic development board is still attached because of the two antenna cables. The two antenna cables are clipped to the Jetson Orin Nano. You have to unclip both of them. You can either use your fingers are lift them with a flat screwdriver.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4646.jpg>)
-Unclip the two antennas from the NVIDA Jetson Orin Nano
+![Remove antenna wires](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-52-11.png>)
 
-Afterwards your NVIDA Jetson Orin Nano is seperated from the developer board. This is the version you can now screw to the platform deck.
+### 2.1.3 Install SSD card
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4647.jpg>)
-Nvidia Jetson Orin Nano demounted from the developer board
+Next remove the screw and insert SSD card then put back in the screw to secure SSD card in place.
 
-## 2. Preparing the WiFi Antenna
-In the next step we are providing both Wifi Antennas so we can mount them in the later steps quick and easy. First of all unpackage your antennas and demount the cables from the antennas. Remove the two brass-colored nuts holding the antennas to the L-shaped bracket, and then remove the two antennas from the bracket. (M3X10mm)
+![Install SSD card](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-44-18.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4648.jpg>)
-Demounted Wifi antennas
+Finally your NVIDA Jetson Orin Nano is seperated from the developer board and the SSD card is installed. This is the version you can now screw to the platform deck.
 
-Afterwards we need to Screw the Standoffs onto the antenna bracket. Using a Phillips screwdriver, thread the two screws you saved earlier completely into the bracket as pictured below. Attach two M3 FF 45mm standoffs to the opposite ends of the screws and hand-tighten them until they won’t turn anymore. Use the pliers to tighten the standoffs more while you hold the head of the screw in place using the screwdriver.
+![Nvidia Jetson Orin Nano demounted from the developer board](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 15-58-57.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 15-51-00.png>)
-Screwing standoffs onto the bracket.
+## 2.2 Preparing the WiFi Antenna
 
-Once you’ve done these steps, place the antennas and washers back into the bracket, and tighten the brass nuts onto the threaded connectors again. It helps to use two pairs of pliers: one to hold the rear nuts in place and another to unscrew the nuts on the end with the antenna connectors.
+In this step we will prepare the WiFi antennas to be mounted on the platform deck. In the step you will need both the antennas, the 3D printed antenna mount, 2 - 45mm M3 Standoffs, and 2 - M3 X 10 screws.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4652.jpg>)
+![Parts overview](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/IMG_4648.jpg>)
 
-Thighten the nuts from the L-shaped bracked.¶
+First put the M3 X 10 screw into 3D printed antenna mount as shown below (Image on the left). Next attach the 45mm M3 standoff (Image in the center). Then use a hex head screwdrive and plyers to firmly tighten in place (Image on the right).
+
+![Step by step bracket and standoff assebly](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 15-51-00.png>)
+
+Once you’ve done these steps, take the washers and nut off of each the threaded end of the antenna cables and place the brass thread end on the cable so the threads a poking out on the back side of the L - bracket. After the threads are throught the bracket place the washers back on. Then thread the nut in place using plyers to make sure the nut is secure. Repeat this process for both the left and right side. The image below shows the result of the steps above.
+
+![Result of threading the antenna cables in place](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 16-32-53.png>)
 
 We can now move on to mounting all of the autonomy elements onto the Upper Level Chassis in the next section. Second accomplishment completed.
 
-# 3. Upper Level Chassis
-In the third part we’re going to assemble the upper level chassis and mount the important components. The complete process for the third hardware part can be watched in this video tutorial too.
-[F1tenth Upper Level Chassis](https://youtu.be/L-V-0zzkl10)
+## 3. Upper Level Chassis
 
-Place the **Platform Deck** so it’s facing you like this. The **Platform Deck** is the laser cut piece.
+In the third part we’re going to assemble the upper level chassis and mount the important components. Below is a video of this process being done to an older model. It is still helpful to watch as there is a large amount of over lap.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 14-46-53.png>)
+[F1Tenth Upper Level Chassis](https://youtu.be/L-V-0zzkl10)
+
+Place the **Platform Deck** so it’s facing you like this. The **Platform Deck** is the laser cut piece out of 1/4" plexglass.
+
+![Platform Deck](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 14-46-53.png>)
 
 To make things easier to follow, we define **Front, Rear, Away,** and **Towards** like above.
 
-**Important**
-```
-This piece is not symmetric. Notice in the figure above that the big M5 VESC mounting holes marked in yellow are not centered. The holes need to be skewed TOWARDS to you.
+### Important
+
+``` text
+This piece is not symmetric. It can be noted that the outline of the base plate is not the same and neither are several of the holes. PAY ATTENTION TO THE LAYTOUT
 ```
 
 The following image shows the five components that we will be mounting on the Platform Deck.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 14-44-43.png>)
-Locations of parts to be mounted.
+![Platform Deck Overview](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 14-44-43.png>)
 
-## 1. Mounting the VESC
+## 3.1 Mounting the VESC
+
 Place the VESC on the Platform Deck so that the power wires are facing AWAY from you and the three cables labelled A, B, and C are facing TOWARDS you.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4642.jpg>)
-VESC placed in correct position on Platform Deck.
+![VESC placed in correct position on Platform Deck.](<Pictures/darc-arms F1Tenth Build/IMG_4642.jpg>)
 
-Flip the Platform Deck and the VESC over and use two M5 screws mounted diagonal from each other to attach the VESC to the Platform Deck, like shown below.
+Flip the Platform Deck and the VESC over and use two M5 X 10 screws, mount diagonal from each other to attach the VESC to the Platform Deck, like shown below. Mounting holes for Powerboard and VESC.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 15-00-35.png>)
-Mounting holes for Powerboard and VESC. Note that this is view of the bottom of the Platform Deck.
+**Note:** that this is view of the bottom of the Platform Deck.
 
-## 2. Mounting the Antenna
-After the VESC we mount the antenna standoffs+cables to the rear of the VESC. The reason for that is that we want to lay the antenna cables beneath the powerboard and connect it afterwards directly to the NVIDIA Jetson NX before mounting it. Use the M3 screw to mount the antenna standoffs+cable.
+![Bottom view of how to mount the VESC](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 15-00-35.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4653.jpg>)
-Mounted Antenna on the platform deck.
+## 3.2 Mounting the Antenna
 
-Afterwards you can directly attach the black antennas to the antenna mount. Just as you demounted the antenna rotate them back to the antenna mount.
+After the VESC is mounted. We mount the antenna standoffs and cables to the rear of the platform deck. The reason for that is that we want to lay the antenna cables beneath the powerboard and connect it directly to the NVIDIA Jetson Orin Nano before mounting it.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4654.jpg>)
-Attach the antenna mount to the Antenna.
+Use the M3 X 10 screw to mount the antenna standoffs+cable onto the platform deck.
 
-## 3. Mounting the NVIDIA Jetson NX
-Now its time to mount the NVIDIA Jetson NX. Before we mount the Jetson please connect the antenna cables first. Flip the Jetson around and clip both antenna cables to the antenna connectors on the Jetson.
+![Attach antenna mount to platform deck](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 16-55-49.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/ulchassisNX_04.jpeg>)
-Connect the antenna cables to the Jetson NX.
+Afterwards you can directly attach the black antennas to the antenna mount.
 
-Afterwards we need to install the M3 standoffs for the Jetson on the Platform deck. Screw the standoffs to the platform deck to the specific NVIDA Jetson NX mount holes. Thread the M3 screw from underneath the Platform Deck up and secure with a 25mm standoff.
+![Attach the antennas to the antenna mount.](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 17-00-11.png>)
 
-![alt text](<Pictures/F1tenth Build/ulchassisNX_05.jpeg>)
-Install the standoffs for the Nvidia Jetson.
+## 3.3 Mounting the NVIDIA Jetson Orin Nano
 
-Now you can place the Jetson NX on the mounted standoffs. Use the 4 main holes on top of the Jetson to mount the Jetson to the platform deck with M3 screws. Then, Secure the Powerboard to the 25mm standoff with a M3 x 8mm screw.
+Now its time to mount the NVIDIA Jetson Orin Nano. Before we mount the Jetson on the platform deck please connect the antenna cables to the back of the Jetson. Flip the Jetson around and clip both antenna cables to the antenna connectors on the Jetson.
 
-![alt text](<Pictures/F1tenth Build/ulchassisNX_06.jpeg>)
-Mount the Nvidia Jetson NX to the platform deck.
+![Connect antenna wires](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 17-14-27.png>)
 
-## 4. Mounting the Powerboard
-The image above shows the three holes used to mount the Powerboard. Only three of the Powerboard mounting holes are used. Flip the Platform Deck with the VESC attached to it back over so the VESC is facing up. Attach the Powerboard to the Platform deck by using the M3 screws that were removed from the chassis in the Lower Level Chassis section. Thread the M3 screw from underneath the Platform Deck up and secure with a 25mm standoff. Then, Secure the Powerboard to the 25mm standoff with a M3 x 8mm screw.
+Then we need to install the 15mm M2.5 standoffs for the Jetson on the Platform deck. Screw the standoffs to the top of the platform deck to the specific NVIDA Jetson Orin Nano mount holes. Thread the M2.5 X 8 screw from underneath the Platform Deck up and secure 15mm standoff in place.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 16-19-13.png>)
-Side view of Powerboard mounted on Platform Deck.
+![Jetson OrinNano Standoff locations](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 17-24-35.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4655.jpg>)
+Now you can place the Jetson Orin Nano on the mounted standoffs. Use the 4 main holes on top of the Jetson to mount the Jetson to the platform deck with M2.5 X 8 screws.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 17-20-13.png>)
+![Jetson Orin Nano screw locations](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-18 17-25-08.png>)
 
-### The lines on the top on the power board are positive
-Top view of Powerboard mounted on Platform Deck. The green terminal blocks are facing the FRONT of the car.
+## 3.4 Mounting the Powerboard
 
-There should be a gap between the Powerboard and the VESC.
+Before attaching the Powerboard you will first need to solder all of the components onto the Powerboard. Below is a table with the name of the component, quanity, position on the Powerboard, and an image of the component.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/IMG_4658.jpg>)
-Notice there is space between the VESC and the Powerboard.
+**Note:** There are 3 capacitors that are polarized meaning the direction of the capacitor matters. Please reference the second image as it informs you of the proper direction. **The lines on the top on the power board are positive**
 
-After installing the powerboard your upper level should look like this.
+![Powerboard component table](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 18-44-02.png>)
 
-![alt text](<Pictures/F1tenth Build/ulchassisNX_07.jpeg>)
-Platform deck with Jetson NX, VESC, Powerboard and antenna.
+![Powerboard before and after](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 18-59-37.png>)
 
-## 5. Mounting the Lidar
-The last component to mount is the lidar. Here, we use the Hokuyo UTM-30LX. The mounting holes for the Hokuyo UST-10LX are slightly different.
+The image below shows the three holes used to mount the Powerboard. Only three of the Powerboard mounting holes are used. Thread the M3 X 10 screw from underneath the Platform Deck up and secure 3 M3 25mm standoff. Then, secure the Powerboard to the 25mm standoff with a M3 x 8mm screw.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/Screenshot from 2025-03-13 16-31-47.png>)
+![Platform Deck Overview](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 14-44-43.png>)
+
+Side view of Powerboard mounted on Platform Deck. There should be a gap between the Powerboard and the VESC.
+
+![Side view of Powerboard](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 18-55-13.png>)
+
+![Overview of Powerboard](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/IMG_4736.jpg>)
+
+After installing the Powerboard here is a top view of Powerboard mounted on Platform Deck. The **green terminal blocks** are facing the **FRONT** of the car.
+
+## 3.5 Mounting the Lidar
+
+The last component to mount is the lidar. Here, we use the Hokuyo UTM-10LX. The mounting holes for the Hokuyo UST-10LX are slightly different than the Hokuyo UTM-30LX.
+
+![Lidar mounting holes](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-31-47.png>)
+
 Lidar mounting holes.
 
 Use the appropriate mounting holes for your lidar.
 
-Use four M3 screws to mount from underneath.
+Use 2 M3 X 8 screws to mount from underneath.
 
-![alt text](<Pictures/F1tenth Build/ulchassis10.jpeg>)
+![Lidar mounted on Platform Deck](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/IMG_4739.jpg>)
 Lidar mounted on Platform Deck.
 
-The upper level chassis is complete and we’re ready to assemble everything!
+**The upper level chassis is complete and we’re ready to assemble everything!**
 
-![alt text](image.png)
+## 4. Putting it all together
 
-# 4. Putting it all together
-Now that we have the autonomy elements attached to the upper level chassis, we are going to attach the upper level chassis to the lower level chassis. This part may be a tad unwieldy due to the amount of wires and cables that have to be contained. The complete process for the last hardware part can be watched in this [video tutorial](https://youtu.be/vNVFCq688ck) too.
+Now that we have the autonomy elements attached to the upper level chassis, we are going to attach the upper level chassis to the lower level chassis. This part may be a tad unwieldy due to the amount of wires and cables that have to be contained. Below is a video of this process being done to an older model. It is still helpful to watch as there is a some over lap.
 
+[F1Tenth full assembly](https://youtu.be/vNVFCq688ck)
 
-## 1. Mounting the Upper Level Chassis to the Lower Level Chassis¶
-Gently place the upper level chassis on top of the standoffs of the lower level chassis. The VESC should be towards the back of the car. Thread the PPM cable from the lower level chassis, through one of the Platform Deck slot.
+## 4.1 Mounting the Upper Level Chassis to the Lower Level Chassis
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-35-24.png>)
-Upper Level Chassis gently placed on top of Lower Level Chassis.¶
+Gently place the upper level chassis on top of the 45mm M3 standoffs of the lower level chassis. The VESC should be towards the back of the car. Thread the steering servo cable from the lower level chassis, through one of the Platform Deck slot on the far side. Then use three M3 x 10mm screws to attach the Platform Deck to the standoffs on the lower level chassis.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-35-50.png>)
-Lidar cables carefully arranged on top of battery.¶
+![Upper Level Chassis gently placed on top of Lower Level Chassis](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/IMG_4743.jpg>)
 
-Use three M3 x 10mm (these are the ones that were removed from the chassis during the Lower Level Chassis build section) screws to attach the Platform Deck to the standoffs on the lower level chassis.
+**Note:** It may be useful to use a zip tie to secure the USB cable from the lidar to the platform.
 
-It may be useful to use a zip tie to secure the USB cable from the lidar to the platform.
+### Danger
 
-Danger
-
+``` text
 The driveshaft that runs along the length of the chassis rotates when the car moves. You can manage the cables and wires in whatever manner you like but make sure that you keep them away from any rotating assemblies, including the driveshaft. If you don’t, then the rotating assemblies will pull on all the cables and the last 1-2 hours of your life will have been in vain.
+```
 
-## 2. Connecting the Brushless Motor to the VESC¶
+## 4.2 Connecting the Brushless Motor to the VESC
+
 Take three 4mm to 3.5mm bullet adapters.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-02.png>)
-
-4mm to 3.5mm bullet adapters.¶
+![4mm to 3.5mm bullet adapters](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-02.png>)
 
 Attach the adapters to the blue, yellow, and white wires of the Brushless Motor.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-12.png>)
-
-*Blue, yellow, white wires from Brushless Motor.*
+![Blue, yellow, white wires from Brushless Motor](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-12.png>)
 
 The VESC also has three wires labelled `A`, `B`, and `C`.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-28.png>)
+### A -> WHITE
 
-*VESCMKIII.*
+### B -> YELLOW
 
-Now, we are going to connect these to the VESC. This part is a tad tricky.
+### C -> BLUE
 
-**A -> WHITE**
+![VESC MK III](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-28.png>)
 
-**B -> YELLOW**
-
-**C -> BLUE**
+Brushless Motor wires connected to the Bullet Adapters then connceted to the VESC wires. Then tuck the wires underneather the platform deck.
 
 ![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-39.png>)
 
-Brushless Motor wires connected to the Bullet Adapters then connceted to the VESC wires.¶
+### Important
 
-**Important**
-
-```
+``` text
 After you flash the firmware on the VESC, if the vehicle runs backwards to the expected motion, simply swap the WHITE wire to “C” and BLUE wire to “A”.
 ```
 
-## 3. Connecting the Battery with the VESC¶
+## 4.3 Connecting the Battery with the VESC
+
 Plug the charge adapter into the battery plug,
 
-**Danger**
+### Danger
 
-```
+``` text
 MAKE SURE THAT RED/POWER AND BLACK/GROUND ARE CONNECTED CORRECTLY TO THE RED/POWER AND BLACK/GROUND OF THE CHARGE ADAPTER Fire will happen if this is plugged backwards.
 ```
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-36-50.png>)
+![Charge adapter cable plugged into the Lipo battery](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/IMG_4745.jpg>)
 
 *Charge adapter cable plugged into the Lipo battery.*
 
-Then, connect the other side of the charge adapter to a TRX to XT90 adapter.
+Then, connect the other side of the charge adapter to a TRX to XT90 adapter. Reference image below.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-37-01.png>)
+![Plugging in the TRX to XT90 adapter](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 19-56-15.png>)
 
 *Plugging in the TRX to XT90 adapter.*
 
-It should look like this:
+After connecting the XT90 connections between the battery and the VESC (the yellow connectors) This will connect the battery and the VESC. Please reference the image below.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-37-10.png>)
-
-*TRX to XT90 adapter installed.*
-
-After connecting the batter the car should look like this.
-
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-37-21.png>)
+![Battery connected to the VESC](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 20-08-39.png>)
 
 *Battery connected to the VESC.*
 
-## 4. Connecting the NVIDIA Jetson NX with the VESC¶
-The NVIDIA Jetson NX needs to be connected to the powerboard. Use the barrel jack to pig tail connector. The board uses a 2.5x5.5mm power jack (MFN: PJ-036BH-SMT-TR). It is an unfortunate fact of life that the connections for barrel jacks are not standarized. For the specific barrel jack on this board, the center pin is POWER. Do not plug in a power supply whose center pin is ground. Connect one of the ends of the cable with GND on the powerboard, the other one with the 12V connector. Afterwards you can plug in the barrel jack in the NVIDIA Jetson NX.
+Finally, connect the battery and the Powerboard. This is done by connecting the 4-pin connector to the Powerboard. Reference the image below.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-37-38.png>)
+![Battery and Powerboard connection](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 20-01-45.png>)
+
+## 4.4 Connecting the NVIDIA Jetson Orin Nano with the Powerboard
+
+The NVIDIA Jetson Orin needs to be connected to the powerboard. Use the barrel jack to pig tail connector. The board uses a 2.5x5.5mm power jack (MFN: PJ-036BH-SMT-TR). It is an unfortunate fact of life that the connections for barrel jacks are not standarized. For the specific barrel jack on this board, the center pin is POWER. Do not plug in a power supply whose center pin is ground. Connect one of the ends of the cable with GND on the powerboard, the other one with the 12V connector. Afterwards you can plug in the barrel jack in the NVIDIA Jetson Orin. (Reference the red box in the image below)
+
+![NVIDIA Jetson power supply connected with the powerboard](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 20-17-18.png>)
 
 *NVIDIA Jetson power supply connected with the powerboard.*
 
-## 5. Lidar Connection
-The lidar comes with two very long cables. We are going to try out best to manage them. Split the two cables of the lidar and loop them under the slots on the Platform Deck.
+## 4.5 Lidar Connection
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-37-45.png>)
+The lidar comes with two very long cables. We are going to try out best to manage them. By tucking them under the Platform Deck.
+
+![Storing the Lidar Cable under the Platform Deck](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 20-28-35.png>)
 
 *Storing the USB Lidar Cable in front of the Lidar*
 
-Using a twist tie, rubber band, or zip tie, gather the majority of the cables on each side. Then connect the Lidar to the NVIDIA Jetson. If using the UTM-30LX, plug the USB into one of the ports of the NVIDIA Jetson USB hub. If you are using a 10LX, plug it into the ethernet port of the Jetson NX.
+Using a twist tie, rubber band, or zip tie, gather the majority of the cables on each side. Then connect the Lidar to the NVIDIA Jetson. If using the UTM-30LX, plug the USB into one of the ports of the NVIDIA Jetson USB hub. If you are using a 10LX, plug it into the ethernet port of the Jetson Orin Nano.
 
-Then its time to provide the energy connection for the Lidar. For the stripped cable side, insert the BROWN (POWER) and BLUE (GROUND) wires into one of the 12V terminal blocks on the Powerboard.
+Then its time to provide the energy connection for the Lidar. The other Lidar cable has a white connection, disconnet the **BROWN** (**POWER**) and **BLUE** (**GROUND**) wires from the white connector and connect to one of the 12V terminal blocks on the Powerboard. (Reference image below)
 
 **Danger**
 
+``` text
+BROWN is POWER and BLUE is GROUND.* DO NOT MIX THESE UP OTHERWISE YOU WILL FRY YOUR VERY EXPENSIVE LIDAR. And then life will be very very sad. When in doubt, check the side of the Hokuyo. It will list out the correspondence of each wire.
 ```
-*BROWN is POWER and BLUE is GROUND.* DO NOT MIX THESE UP OTHERWISE YOU WILL FRY YOUR VERY EXPENSIVE LIDAR. And then life will be very very sad. When in doubt, check the side of the Hokuyo. It will list out the correspondence of each wire.
-```
-
-![alt text](<Pictures/darc-arms F1Tenth BuildRoboRacer_Pics/Screenshot from 2025-03-13 16-38-16.png>)
 
 Lidar power is plugged into the terminal block with Brown to Power and Blue to Ground.
 
-## 6. Attaching the PPM Cable¶
-Now we are going to connect the PPM (Pulse-Position Modulation) cable to the Servo. The PPM cable connects the Servo to the VESC, which we will install on the Upper Level Chassis later.
+![Lidar powered by Powerboard](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-20 20-30-09.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-38-29.png>)
+## 4.6 Attaching the PPM Cable
 
-*PPM cable. Note that it has a white end and a black end.*
+Now we are going to connect the PPM (Pulse-Position Modulation) cable to the Servo. The PPM cable connects the Servo to the VESC, which we installed on the Upper Level Chassis later.
 
-Take 3 header pins,
+## 4.6.1 Using PPM cable with servo connector
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-38-38.png>)
+**Note:** that PPM has a white end and a black end.
 
-Header pins.¶
+![PPM cable](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-38-29.png>)
 
-Plug it into the servo wires.
+Take 3 header pins
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-54-23.png>)
+![Header pins](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-38-38.png>)
 
-Header pin connected to Servo cable of the Servo on the Traxxas chassis.¶
+Connect the 3 header pins to the **servo cable** on the Traxxas chassis.
 
-Connect the ppm cable with the servo wire.
+![Header pin connected to Servo cable](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-54-23.png>)
 
-Danger
+Connect the PPM cable with the servo wire.
 
+### Danger
+
+```text
 BROWN is GROUND. It should be connected to the BLACK wire of the Servo Cable. Make sure the polarity of the PPM cable to servo is correct.
+```
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-38-56.png>)
+![PPM cable connected to Servo cable](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-38-56.png>)
 
-*PPM cable connected to Servo cable.*
+Now you can put everything together and plug it into the PPM slot on the VESC.
 
-Now you can put everything together and plug it into the ppm slot on the VESC.
+![PPM cable plugged into VESC](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-03-13 16-39-04.png>)
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-39-04.png>)
+## 4.6.2 Using PPM cable WITHOUT servo connector (NOT OPTIMAL)
 
-*PPM cable plugged into VESC.*
+If you are unable to find the PPM to servo cable you can buy a JST PH 2.0mm 3 Pin Male connectors and splice the JST PH connector wires with the servo wires from the Traxxas chassis. This can be done by cutting and stripping the servo wires. Then use th digram below to twist the wires to gether and heat shrink each individual wire to prevent short circuiting.
 
-The Lower Level chassis is now set up and we can move on to the autonomy elements. First accomplishment completed!
+The color of these connectors can depend on the PPM connector that is purchased. On the VESC each pin for the PPM is labelled and the PPM connector has a specific direction that it has to be plugged into the VESC. Since each pin is labelled you can trace the coresponding pin to the color of wire on the PPM connector and then attach that to the correct servo wire.
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-39-38.png>)
+**Note:** The servo wire is **Black** for **ground**, **red** for **positive**, and **white** for **signal**.
+
+To connect these wires you strip 2 cm of coding off over each wire you are splicing and then slide a 3 cm piece of heat shrink over the PPM wire and push it down the wire so you are able to twist the 2 pieces of wire together. Then use a heat gun to shrink the heat shrink around the twisted wires securing them in place. Repeat this process for all 3 wires.
+
+![Heat shrinking the PPM and Sservo wires together](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-21 09-33-21.png>)
+
+Finally, connect the PPM connector to the VESC. Please reference image below.
+
+![Connect the PPM connector to the VESC](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-21 09-45-05.png>)
 
 ## 7. Final Touches
+
 Almost there!
 
-Connect a micro USB (here: the white cable) from the VESC to the USB hub.
+Connect a micro USB from the the USB port on Jetson Orin Nano to the micro USB port on the VESC (Close to the PPM port).
 
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-39-53.png>)
+![Micro USB plugged into Jetson and VESC](<Pictures/darc-arms F1Tenth Build/New_F1Tenth_Pics_4_2025/Screenshot from 2025-04-21 09-47-55.png>)
 
-*Micro USB plugged into the VESC. Plug the USB side into the USB hub.*
+## 8. Voila
 
-Finally, screw on the antennas included with the Jetson TX2 Kit to the Antenna Terminals.
-
-## 8. Voila!
 Your final vehicle should look like the following:
 
 ![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-40-06.png>)
 
 Now we’re ready to start driving!
-
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-40-18.png>)
-
-**DEPRECATED: NVIDIA TX2 Setup**
-Attach the two wires for the Jetson Wi-Fi antenna to the two gold-colored connectors near the fan connector on the heat sink (the order of the wires doesn’t matter). This can be a little tricky, so you might want to use a flathead screwdriver to ensure the connections are tight.  Don’t press too hard , however as you can easily damage the connectors if you use excessive force!
-
-![alt text](<Pictures/darc-arms F1Tenth Build/RoboRacer_Pics/Screenshot from 2025-03-13 16-40-26.png>)
