@@ -253,11 +253,11 @@ The driveshaft that runs along the length of the chassis rotates when the car mo
 
 Take three 4mm to 3.5mm bullet adapters.
 
-![4mm to 3.5mm bullet adapters](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-02.png>)
+![4mm to 3.5mm bullet adapters](<Building_F1Tenth_Pics/Screenshot from 2025-04-21 10-31-39.png>)
 
 Attach the adapters to the blue, yellow, and white wires of the Brushless Motor.
 
-![Blue, yellow, white wires from Brushless Motor](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-12.png>)
+![Blue, yellow, white wires from Brushless Motor](<Building_F1Tenth_Pics/Screenshot from 2025-04-21 10-31-54.png>)
 
 The VESC also has three wires labelled `A`, `B`, and `C`.
 
@@ -267,11 +267,11 @@ The VESC also has three wires labelled `A`, `B`, and `C`.
 
 ### C -> BLUE
 
-![VESC MK III](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-28.png>)
+![VESC MK III](<Building_F1Tenth_Pics/Screenshot from 2025-04-21 10-32-16.png>)
 
 Brushless Motor wires connected to the Bullet Adapters then connceted to the VESC wires. Then tuck the wires underneather the platform deck.
 
-![alt text](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-39.png>)
+![Bullet connectors tucked under PLatform Deck](<Building_F1Tenth_Pics/Screenshot from 2025-03-13 16-36-39.png>)
 
 ### Important
 
@@ -295,7 +295,7 @@ MAKE SURE THAT RED/POWER AND BLACK/GROUND ARE CONNECTED CORRECTLY TO THE RED/POW
 
 Then, connect the other side of the charge adapter to a TRX to XT90 adapter. Reference image below.
 
-![Plugging in the TRX to XT90 adapter](<PBuilding_F1Tenth_Pics/Screenshot from 2025-04-20 19-56-15.png>)
+![Plugging in the TRX to XT90 adapter](<Building_F1Tenth_Pics/Screenshot from 2025-04-20 19-56-15.png>)
 
 *Plugging in the TRX to XT90 adapter.*
 
