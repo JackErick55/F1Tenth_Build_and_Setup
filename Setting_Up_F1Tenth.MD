@@ -48,7 +48,7 @@ There are **2 ways** to write the SD card image one is using a graphical program
 
     It will take Etcher 10-15 minutes to write and validate the image if your microSD card is connected via USB3.
 
-5. After Etcher finishes, eject (⏏) the SD Card using Files application.
+5. After Etcher finishes, eject (the triangle with line under it) the SD Card using Files application.
 
     ![select eject](Setting_Up_F1Tenth_Pics/image-11.png)
 
