@@ -857,6 +857,12 @@ This command ensures that the .gitmodule is in the correct directory. As you sho
 ls -a
 ```
 
+To edit the `.gitmodules` file use a text editor. The example below uses the nano text editor. If it is not installed already it can be installed using the following command.
+
+```bash
+sudo apt install nano
+```
+
 Next you will edit `.gitmodules` by running the following command.
 
 ```bash
@@ -906,6 +912,12 @@ colcon build
 You can find more details on how the drivers are set up in the README of the f1tenth_system repo.
 Install colcon If you haven't installed colcon yet, follow these steps:
 
+#### Install Colcon
+
+```bash
+sudo apt install python3-colcon-common-extensions
+```
+
 ### Possible Error and Fix
 
 If the following error occurs
@@ -940,7 +952,15 @@ Use the following command
 sudo apt update && sudo apt install ros-humble-asio-cmake-module
 ```
 
-#### There will be several warnings please use the following commands to midigate these warnings
+**NOTE:** After editing any file in the f1tenth_ws directory you will have to rebuild and source the workspace using the following commands.
+
+```bash
+cd $HOME/f1tenth_ws
+colcon build
+source install/seup.bash
+```
+
+#### After rebuilding and source ing the workspace there will be several `stderr` warnings please use the following commands to midigate these warnings
 
 Code format: `find . -type f -exec sed -i 's/old/new/g' {} \;`
 
@@ -949,14 +969,18 @@ find . -type f -exec sed -i 's/script-dir/script_dir/g' {} \;
 find . -type f -exec sed -i 's/install-script/install_script/g' {} \;
 ```
 
+#### After running the commands above to fix the errors you will need to rebuild and source the workspace.
+
 ### 3.4 Launch teleoperation and the LiDAR
 
 This section assumes that the lidar has already been plugged in (either to the USB hub or to the ethernet port). If you are using the Hokuyo 10LX or a lidar that is connected via the ethernet port of the Jetson, make sure that you have completed the Hokuyo 10LX Ethernet Connection section before preceding.
 
+### 3.4.1 Setup Lidar Parameters
+
 Before the bringup launch, you’ll have to set the correct parameters according to which LiDAR you’re using in the params file `sensors.yaml`. All parameter files are located in the following location:
 
 ```bash
-$HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/sensors.yaml
+nano $HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/sensors.yaml
 ```
 
 If you’re using an ethernet based LiDAR, set the ip_address field to the corresponding ip address of your LiDAR. (You won't need to change the yaml file)
@@ -987,6 +1011,8 @@ urg_node:
 
 If you’re using a USB based LiDAR, comment out the ip_address field, and uncomment the line with the serial_port field. And set the value to the correct udev name from udev rules set up.
 
+### 3.4.2 Sourcing Overlay and Workspace
+
 In your running terminal, run the following commands to source the ROS 2 underlay and our workspace’s overlay:
 
 ```bash
@@ -994,6 +1020,7 @@ source /opt/ros/humble/setup.bash
 cd $HOME/f1tenth_ws
 source install/setup.bash
 ```
+### 3.4.3 Launching `f1tenth_stack`
 
 Then, you can launch the bring up with:
 
@@ -1003,17 +1030,27 @@ ros2 launch f1tenth_stack bringup_launch.py
 
 Running the bringup launch will start the VESC drivers, the LiDAR drivers, the joystick drivers, and all necessary packages for running the car. To see the LaserScan messages, in a new terminal window, run
 
+### 3.4.4 Opening RViz
+
 ```bash
 source /opt/ros/humble/setup.bash
 cd $HOME/f1tenth_ws
 source install/setup.bash
 rviz2
 ```
+### 3.4.5 Setting up RViz
 
-Change the **Fixed Frame** parameter from **map** to **laser**
-The rviz window should show up. Then you can add a LaserScan visualization in rviz on the /scan topic.
+After the RViz window opens we will setup the LaserScan to view the point cloud populated by the lidar in real time.
 
-If RViz2 is populating a blank screen is could be because RViz2 is misconfigured. Try the following steps.
+Start by change the **Fixed Frame** parameter from **map** to **laser**
+
+![Global Options - Fixed Frame](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-05-01 14-12-40.png>)
+
+Then you can add a LaserScan visualization in rviz by going to `Add`. Next a rvis create visualization window will open. After this go to the `By topic` tab and select `LaserScan` under the /scan section. Finally select `OK` at the bottom right on the create visulaization window.
+
+![Add a LaserScan to RViz](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-05-01 14-33-55.png>)
+
+If RViz is populating a blank screen is could be because RViz is misconfigured. Try the following steps.
 
 1. Close RViz2
 2. Delete the saved configuration file (if it exists):
@@ -1027,26 +1064,6 @@ If RViz2 is populating a blank screen is could be because RViz2 is misconfigured
     ```
     rviz2
     ```
-
-### Test controller
-
-connect the controller using bluetooth from the settings.
-
-```bash
-sudo apt install jstest-gtk
-```
-
-Then run `jstest-gtk` in the terminal to open the tester and select the wireless controller.
-
-![jstest-gtk](Setting_Up_F1Tenth_Pics/image-7.png)
-
-### Manual Test of Teleop Commands
-
-If you confirm that joystick inputs are present but the car isn't responding, you can try publishing manual commands to the /ackermann_cmd topic as mentioned shown below.
-
-```bash
-ros2 topic pub /ackermann_cmd ackermann_msgs/msg/AckermannDriveStamped "drive: {speed: 1.0, steering_angle: 0.0}"
-```
 
 ## 4. Driving the F1Tenth Car
 
@@ -1080,11 +1097,37 @@ We want to minimize the number of accidents so before we begin, let’s first in
 
 3. Hold the LB button (Dead man’s switch) on the controller to start controlling the car. Use the left joystick to move the car forward and backward and the right joystick for steering. If you’re using Logitech F710, switch the switch at the back of the joystick to D. The mode light in the front of the joystick should not be constantly on. If it is, press the mode button once.
 
+>Note: In the LB button  also know as the deadman switch is not presssed then the car will not enter the `human control` mode and the controller will not drive the car.
+
 ### 4.2.1 Troubleshooting
 
-During teleop, if the joystick is not mapped correctly, you can change the mapping in `/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/joy_teleop.yaml` in the directory. To identify the mapping, you can launch the bringup launch, and echo the `/joy` topic. Move the joystick axis around, you should change in the echoed message. The index of the changed value in the array when you move a joystick in on direction is the axis id to that joystick direction. After identifying the correct indices, change the yaml to reflect it under `human_control`.
+During teleop, if the joystick is not mapped correctly, you can change the mapping using the command 
 
-If **nothing happens**, one reason can be that the driver name is listening on the wrong port for the joystick. To double check, you can check `joy_teleop.yaml` again for the device_name pararmeter. If you’re using the Logitech joystick, the name should match with the udev name we’ve set up before. If you’re using another joystick and did not set udev rules, you can check the assigned name by running ls /`dev/input/*`. It’ll usually follow the format `/dev/input/js*`, for example `/dev/input/js0`.
+```bash
+nano $HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/joy_teleop.yaml`. 
+```
+
+Under the `human control` section of the joy_teleop file you will see `deadman_button` and 2 `axis` one for for `drive-speed` and the other for `drive-steering_angle`. To ensure the controller is mapped correctly use the following steps.
+
+1. Ensure the controller is connected correctly by using the bluetooth section in settings.
+
+2. Install the a Joystick app to visualize the inputs.
+
+    ```bash
+    sudo apt install jstest-gtk
+    ```
+
+3. Then run the following command in the terminal to open the tester and select the wireless controller.
+
+    ```bash
+    jstest-gtk
+    ```
+
+4. After the Joystick Preferences window opens double click on the Wireless Controller and the Wireless Controller window will open. This will allow you to view the inputs of the controller and change the 'joy_teleop.yaml` file if neccessary.
+
+    ![Joystick app to visualize the inputs](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-04-29 16-16-54.png>)
+
+If **nothing happens**, one reason can be that the driver name is listening on the wrong port for the joystick. To double check, you can check `joy_teleop.yaml` again for the device_name pararmeter. If you’re using the Logitech joystick, the name should match with the udev name we’ve set up before. **If you’re using another joystick and did not set udev rules**, you can check the assigned name by running ls /`dev/input/*`. It’ll usually follow the format `/dev/input/js*`, for example `/dev/input/js0`.
 
 Note that the **LB button acts as a “dead man’s switch”**, as releasing it will stop the car. This is for safety in case your car gets out of control.
 
@@ -1099,6 +1142,15 @@ You can see a **mapping of all controls** used by the car in the `joy_teleop.yam
 **SerialException errors** and you’re using the 30LX Hokuyo, the errors might be due to a port conflict: make sure you’ve set up udev rules, as explained in this section.
 
 **urg_node related errors**: Check the ports (e.g. an ip address in sensors.yaml can only be used by 10LX, not 30LX, and vice-versa for the udev name /dev/sensors/hokuyo).
+
+### Manual Test of Teleop Commands
+
+If you confirm that joystick inputs are present but the car isn't responding, you can try publishing manual commands to the /ackermann_cmd topic as mentioned shown below.
+
+```bash
+ros2 topic pub /ackermann_cmd ackermann_msgs/msg/AckermannDriveStamped "drive: {speed: 1.0, steering_angle: 0.0}"
+```
+
 
 ## Calibrating the Odometry
 
@@ -1120,14 +1172,16 @@ HOME/f1tenth_ws/src/f1tenth_system/f1tenth_stack/config/vesc.yaml
 
 ### 4.3.3 Check Drive Motor Direction
 
- First, we need to check if our motor is rotating in the right direction. If when given a positive velocity, or commanded moving forward with the joystick, the motor is spinning in the reverse direction, **swap 2 of the 3 connections from the vesc to the BLDC motor**. Before you do this, **make sure you’ve disconnected the battery to the vesc.**
+First, we need to check if our motor is rotating in the right direction. If when given a positive velocity, or command moving forward with the joystick, if the motor is spinning in the reverse direction, open the VESC Tool on the host computer, connect the car to the host computer via cable and select `AutoConnect`. After the car is connected to the host computer select `Invert Motor Directions` and finally select `Inverted` slide to switch the motor direction.
+
+![alt text](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-04-29 17-01-23.png>)
 
 ### 4.3.4 VESC Driver Interpreting Motor Rotation Correctly
 
- Next, we’ll also need to check if the vesc driver is interpreting the motor rotation direction correctly. To do this, after launching teleop with the bringup launch, echo the /odom topic in a new bash window inside the container with this command: `ros2 topic echo --no-arr /odom`. The `--no-arr` argument hides the large covariance matrices when echoing the odometry message. Give a positive velocity command (forward throttle with the joystick), and pay close attention to the `pose/pose/position/x` field of the echoed messages. If it is increasing in the reverse direction, we’ll have to fix that. If it is reversed, modified the source code located at:
+Next, we’ll also need to check if the VESC driver is interpreting the motor rotation direction correctly. To do this, after launching teleop with the bringup launch, echo the /odom topic in a new bash window inside the container with this command: `ros2 topic echo --no-arr /odom`. The `--no-arr` argument hides the large covariance matrices when echoing the odometry message. Give a positive velocity command (forward throttle with the joystick), and pay close attention to the `pose/pose/position/x` field of the echoed messages. If it is increasing in the reverse direction, we’ll have to fix that. If it is reversed, modified the source code located at:
 
 ```bash
-$HOME/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp
+nano $HOME/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp
 ```
 
 if you’re using the driver stack natively, or on the host if you’re using docker containers, and
