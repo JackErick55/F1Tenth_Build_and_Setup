@@ -573,13 +573,21 @@ Launch the VESC Tool on Host Computer. On the Welcome page, press the AutoConnec
 
 ### 1.4 Updating the Firmware on the VESC
 
-The first thing you’ll need to do is to update the firmware onboard the VESC. By going to the `Firmware` tab and selection update.
+The first thing you’ll need to do is to update the firmware onboard the VESC. By going to the `Firmware` tab and select `Show non-default firmwares` in the bottom left hand corner. Then got to the bottom right hand corner and select download `All`.
 
-With latest default firmware you will need to enable servo out, go to **App Settings > General > Enable Servo Output** in the VESC Tool to enable servo out. Then click the A with a down arrow (Write app configuration)
+![Update Firmware](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-05-01 16-23-58.png>)
 
-![Enable Servo Output](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-04-23 00-41-52.png>)
+Then you will need to enable servo out, go to **App Settings > General > Enable Servo Output** in the VESC Tool to enable servo out. Then click the A with a down arrow (Write app configuration)
 
-### 1.5 Detecting and Calculating Motor Parameters
+![Enable Servo Output](<Setting_Up_F1Tenth_Pics/Screenshot from 2025-05-01 16-27-05.png>)
+
+### 1.5 Uploading the Motor Configuration XML
+
+After firmware update, Select Load Motor Configuration XML from the drop down menu and select the provided XML file from [here](vesc6_upenn_foc.xml). After the XML is uploaded, click on the Write Motor Configuration button (the button with a down arrow and the letter M) on the right side of the screen to apply the motor configuration. Note that in the future, you’ll have to press this button whenever you make a change in motor configuration.
+
+![Motor Configuration XML](Setting_Up_F1Tenth_Pics/xml.png)
+
+### 1.6 Detecting and Calculating Motor Parameters
 
 To detect and calculate the FOC motor parameters, navigate to the FOC tab under Motor Settings on the left. At the bottom of the screen, follow the direction of the arrows and click on the four buttons one by one, and follow the on screen prompt. Note that during the measuring process, the motor will make noise and spin, make sure the wheels of your vehicle are clear.
 
@@ -589,13 +597,13 @@ After the motor parameters are measured, the fields at the bottom of the screen 
 
 ![Apply an Write Moter Configuration](<Setting_Up_F1Tenth_Pics/Pasted image (9).png>)
 
-### 1.6 Changing the Openloop Hysteresis and Openloop Time
+### 1.7 Changing the Openloop Hysteresis and Openloop Time
 
 Navigate to the **Sensorless** tab on top of the screen. Change the **Openloop Hysteresis** and **Openloop Time** to 0.01, and click the **Write Motor Configuration** button. (Your page my look different than mine but the name of the parameters ae the same.)
 
 ![Set Sensorless parameters](<Setting_Up_F1Tenth_Pics/Pasted image (10).png>)
 
-### 1.7 Tuning the PID controller
+### 1.8 Tuning the PID controller
 
 Now you can start tuning the speed PID controller. To see the RPM response from the motor, navigate to the **Realtime Data** tab under **Data Analysis** on the left. Click **Stream Realtime Data** button on the right (the button with letters RT), and navigate to the **RPM** tab on the top of the screen. You should see RPM data streaming now.
 
@@ -613,7 +621,7 @@ These are my settings.
 
 ![My PID gain values](<Setting_Up_F1Tenth_Pics/Screenshot from 2024-10-07 17-57-01.png>)
 
-### 1.8 Changing the hardware speed limit
+### 1.9 Changing the hardware speed limit
 
 By default, the motor configuration sets a safe top motor RPM. If you wish to change the hard limit set by the VESC firmware, you can go to Motor Settings > General, and change the max ERPM for forward and backwards rotations. You’ll also have to change the configuration file mentioned in the Odometry Tuning section in the software stack setup to change the software limit for your motor ERPM.
 
@@ -818,6 +826,23 @@ rosdep update
 ```
 
 Note that the `rosdep init` command may fail if it has already been initialized in the past; this can safely be ignored.
+
+### 3.2.6 Add ROS Commands to `~/.bashrc`
+
+Add the folloing commands to your `~/.bashrc` this is very help so each time you want to a new terminal ROS is already proberly sourced and colcon auto complete is implemented. Start by opening your `bashrc` file.
+
+```bash
+nano ~/.bashrc
+```
+
+Then go to the bottom of the `bashrc` file and add the following.
+
+```bash
+source /opt/ros/humble/setup.bash
+source ~/f1tenth_ws/install/setup.bash
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+source /usr/share/colcon_cd/function/colcon_cd.sh
+```
 
 ### 3.3 Setting up the driver stack
 
