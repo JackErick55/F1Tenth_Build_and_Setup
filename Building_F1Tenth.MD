@@ -453,4 +453,4 @@ Your final vehicle should look like the following:
 
 ![Finished F1tenth Car](Building_F1Tenth_Pics/IMG_4929.jpg)
 
-Now we’re ready to start driving!
+Now we’re ready to move on to the `Setting_Up_F1Tenth.MD`!
