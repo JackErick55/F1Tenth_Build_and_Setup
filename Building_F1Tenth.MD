@@ -451,6 +451,6 @@ Connect a micro USB from the the USB port on Jetson Orin Nano to the micro USB p
 
 Your final vehicle should look like the following:
 
-### NEED TO ADD AN OVERALL PICTURE
+![Finished F1tenth Car](Building_F1Tenth_Pics/IMG_4929.jpg)
 
 Now we’re ready to start driving!
